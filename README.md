@@ -1,27 +1,41 @@
 # SimPASSFE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+**SimPASSFE** é a interface de front-end de um sistema de gerenciamento de eventos, desenvolvido com **Angular 18.1.2**. Esta aplicação facilita a criação e gerenciamento de eventos, oferecendo uma plataforma completa para organizadores e participantes, com funções que permitem a criação de eventos, venda de ingressos, pesquisa de eventos e compra de ingressos.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Criação de Eventos**: Organizadores podem criar eventos personalizados com título, descrição, data, local, e preços de ingressos.
+- **Gestão de Ingressos**: Ferramenta para gerenciar a venda de ingressos, definir quantidades e valores, além de acompanhar as vendas em tempo real.
+- **Compra de Ingressos**: Participantes podem visualizar eventos, filtrar por localização ou categoria e realizar a compra de ingressos via diferentes métodos de pagamento.
+- **Autenticação**: Login seguro com suporte para OAuth 2.0 (Google, Facebook).
+- **Notificações**: Sistema de notificação para lembrar os participantes sobre eventos futuros ou alterações importantes.
+- **Sistema de Check-in**: Check-in rápido via QR Code para gerenciar a entrada no evento.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Servidor de Desenvolvimento
 
-## Build
+Para rodar o projeto em modo de desenvolvimento, execute o comando:
+```bash
+ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Servidor de Desenvolvimento
 
-## Running unit tests
+Para rodar o projeto em modo de desenvolvimento, execute o comando `ng` serve. Depois, acesse `http://localhost:4200/` no navegador. A aplicação recarregará automaticamente sempre que houver alterações no código-fonte.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Geração de Componentes
 
-## Running end-to-end tests
+Para gerar novos componentes, utilize o comando:
+```bash
+ng generate component component-name
+```
+Você também pode criar diretivas, pipes, serviços, classes, guards, interfaces, enums e módulos usando comandos semelhantes.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Compilação
 
-## Further help
+Para compilar o projeto, execute `ng build`. Os artefatos da build serão armazenados no diretório `dist/`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Mais Informações
+
+Para mais detalhes sobre o Angular CLI, utilize ng help ou visite a página [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli)
