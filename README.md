@@ -39,3 +39,7 @@ Para compilar o projeto, execute `ng build`. Os artefatos da build serão armaze
 ## Mais Informações
 
 Para mais detalhes sobre o Angular CLI, utilize ng help ou visite a página [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli)
+
+## Lembrando
+
+Para vocês conseguirem fazer commit do seu trabalho, ira precisar criar uma branch com seu nome. e fazer a pull request.
